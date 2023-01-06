@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* common style */
+.common-btn{
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 150px;
+    height: 70px;
+    color: white;
+    background-color: rgb(255, 0, 43);
+}
+
+.section1{
+    width: 1300;
+    height: 100vh;
+    background-image: url("images/donation13.jpg"),linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+
+}
+
+.first-section{
+    padding: 100px;
+    padding-top: 200px;
+    text-align: center;
+}
+.fist-section-titel{
+    color: white;
+    font-size: 60px;
+   
+}
+.first-section-discription{
+    color: white;
+    font-size: 15px;
+    padding-bottom: 35px;
+    padding-top: 30px;
+}
+/* section2 strte */
+
+.section2{
+    margin-top: 120px;
+}
+.section2-titel{
+    text-align: center;
+}
+.title-2{
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+.discription-2{
+    font-weight: bold;
+    color: grey;
+    justify-content: center;
+}
+.amount-box{
+    display: flex;
+    width: 800px;
+    gap: 15px;
+    justify-items: center;
+    padding-left: 220px;
+    padding-top: 50px;
+}
+.tk{
+    color: rgb(113, 115, 117);
+    font-size: 30px;
+    background-color: rgb(242, 241, 241);
+    margin: 0 auto;
+    padding: 30px 30px;
+    border-radius: 20px;
+}
+.tk-secial{
+    border: 2px solid rgb(255, 0, 0);
+    color: rgb(255, 0, 34);
+    font-size: 30px;
+    background-color: rgb(255, 230, 233);
+    margin: 0 auto;
+    padding: 30px 30px;
+    border-radius: 20px;
+}
+.other-amount{
+    color: rgb(136, 138, 139);
+    text-align: center;
+    padding-top: 50px;
+    width: 800px;
+    padding-left: 220px;
+}
+.amount{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.other-amopunt-btn{
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 150px;
+    height: 70px;
+    color: white;
+    background-color: rgb(255, 0, 43);
+    margin-top: 30px;
+}
+/* setion3 start */
+.section3{
+    margin-top: 120px;
+}
+.setion3-titel{
+    text-align: center;
+}
+.titel-3{
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+.discription-3{
+    font-weight: 600;
+    color: rgb(149, 154, 159);
+    padding-bottom: 40px;
+}
+/* card setion start */
+.card-section{
+    display: flex;
+    width: 1100px;
+    padding-left: 240px;
+    gap: 20px;
+}
+.common-card{
+    width: 300px;
+    height: 200px;
+}
+.card-title{
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.card-discription{
+    width: 150px;
+    height: 150px;
+}
