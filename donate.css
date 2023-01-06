@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 /* common style */
 .common-btn{
@@ -10,7 +12,7 @@
     width: 150px;
     height: 70px;
     color: white;
-    background-color: rgb(255, 0, 43);
+    background-color: #ff002b;
 }
 
 .section1{
@@ -157,4 +159,135 @@
 }
 .card3{
     background-color: bisque;
+}
+/* section4 starft */
+.secetion4{
+    margin-top: 120px;
+}
+.artical-section1{
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    gap: 60px;
+} 
+.artical-part1{
+    padding-top: 30px;
+    
+}
+.title-4{
+    font-size: 35px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.discription-4{
+    font-size: 20px;
+    color: rgb(144, 146, 148);
+    padding-bottom: 20px;
+}
+.part1-img{
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+}
+.artical-btn-1{
+    width: 200px;
+}
+
+/* part-2 start */
+
+.artical-section2{
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    gap: 60px;
+    margin-top: 50px;
+}
+.part2-img{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+.artical-part4{
+    padding-top: 30px;
+}
+.titel-5{
+    font-size: 35px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.discription-5{
+    font-size: 20px;
+    color: rgb(144, 146, 148);
+    padding-bottom: 20px;
+}
+.artical-btn2{
+    width: 200px;
+}
+/* sectiion-5 start */
+.section-5{
+    margin-top: 120px;
+}
+.section-title{
+    text-align: center;
+}
+.section5-titel{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.section5-discription{
+    font-weight: 600;
+    color: rgb(149, 154, 159);
+    padding-bottom: 40px;
+}
+.subscrib-div{
+    text-align: center;
+    background-color: #ffebcc;
+    width: 700px;
+    height: 100px;
+    margin: 0 auto;
+}
+.email{
+    width: 200px;
+    height: 30px;
+    border-right: 1px;
+    margin-top: 35px;
+    border: #ffebcc;
+    color: rgb(104, 100, 100);
+    padding-left: 5px;
+    border-radius: 5px;
+
+}
+.subscrib-btn{
+    width: 100px;
+    height: 30px;
+    border-left: 1px;
+    border: #ffebcc;
+    font-weight: 700;
+    color: white;
+    background-color: #ff002b;
+    border-radius: 5px;
+}
+/* footer setiomn start */
+.footer-section{
+    margin-top:120px;
+    background-color: black;
+    height: 200px;
+    border-radius: 10px;
+}
+.footer{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+.footer-titel{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.copyright{
+
+    padding-top: 20px;
+    color: yellow;
+    font-size: 20px;
 }
